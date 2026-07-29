@@ -1,11 +1,17 @@
-<p align="center">
-  <img
-    src="assets/hellopython-logo-multiline.png"
-    alt="hellopython.io logo"
-    width="100%"
-    max-width="360px"
+<picture>
+  <source
+    media="(prefers-color-scheme: dark)"
+    srcset="./assets/hellopython-logo-multiline-light.svg"
   >
-</p>
+  <source
+    media="(prefers-color-scheme: light)"
+    srcset="./assets/hellopython-logo-multiline-dark.svg"
+  >
+  <img
+    alt="HelloPython.io"
+    src="./assets/hellopython-logo-multiline-dark.svg"
+  >
+</picture>
 
 
 
